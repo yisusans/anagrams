@@ -2,10 +2,12 @@
   <h1>
     <%= @word.capitalize %>
   </h1>
-  <p>The anagrams of "<%= @word %>" are ...</p>
+  <p>The anagrams of "<%= @word.capitalize %>" are ...</p>
   <ul>
-    <%= @anagrams.each do |word| %>
-        <li><%= puts word %> </li>
-    <%= end %>
+    <% @anagram_array.each do |word| %>
+        <li> <%= word.capitalize %> </li>
+    <% end %>
   </ul>
+
+  <p>Brought to you by Susan Yi & Gregor Destree</p>
 </main>
