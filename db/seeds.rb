@@ -1,4 +1,4 @@
-WORD_LIST_FILENAME = "db/fixtures/abridged_word_list.txt"
+WORD_LIST_FILENAME = "db/fixtures/word_list.txt"
 
 Word.delete_all
 
