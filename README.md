@@ -1,6 +1,6 @@
 # Anagrams Web Application
 
-## Objective: write a web application backed by a database.  Users will provide a word, our application will access the database to retrieve anagrams for that word, and the anagrams will be listed for the user.
+Objective: write a web application backed by a database.  Users will provide a word, our application will access the database to retrieve anagrams for that word, and the anagrams will be listed for the user.
 
 After creating the web-application, my pair and I spent some time figuring out ways to refactor our existing code and finding a faster way to sort through over 200,000 words in our database.  We accomplished this by reducing our original method even further. 
 
